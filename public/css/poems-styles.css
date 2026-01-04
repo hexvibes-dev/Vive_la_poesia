@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "LavishlyYours";
+  src: url(/fonts/LavishlyYours-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #d98e53;
+}
+
+.flipbook {
+  width: 600px;
+  height: 300px;
+}
+
+.flipbook .hard {
+  background: url(/img/hard.webp) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f3f4f484;
+  font-weight: bold;
+  border: none;
+  font-family: "LavishlyYours", cursive;
+  font-size: 1.5rem;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.flipbook .by {
+  font-size: 1rem;
+  text-align: right;
+  opacity: .6;
+}
+
+#back {
+  background: #400A09 !important;
+}
+
+.flipbook .page {
+  background: url("/img/page.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page img {
+  width: 100%;
+  object-fit: cover;
+  margin: auto;
+}
+
+
+.text {
+  position: absolute;
+  font-family: "LavishlyYours", cursive;
+  font-weight: 400;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.atras{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: transparent;
+  padding: 12px;
+  position: fixed;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+  animation: rebote-lento 2s linear infinite alternate;
+}
+@keyframes rebote-lento {
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@media(width < 600px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    background-color: #d98e53;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .flipbook .hard {
+    background-image: radial-gradient(circle at top right, #5c1a1a, #3b0a0a 80%) !important;
+    box-shadow: inset 1px 1px #866E4F,
+      inset 8px 20px 15px #8C6434;
+  }
+  
+  #back {
+    box-shadow: none;
+    background: #400A09 !important;
+  }
+  
+  .flipbook {
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media(width > 860px) {
+  .flipbook {
+    width: 800px;
+    height: 600px;
+  }
+  
+  .text {
+    font-size: 2rem;
+  }
+  
+  #back {
+    background: #400A09 !important;
+    box-shadow: none;
+  }
+}

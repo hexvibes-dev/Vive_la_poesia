@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme{
+    /* Colores */
+    --color-primary-gold:   #f3af4e;
+    --color-primary-gold-filter: #f3af41 ;
+    --color-extra-light-gold: #f1c88d;
+    --color-primary-brown: #3b1610;
+    --color-dark-brown: #2f181c;
+    --color-light-brown: #7e300b;
+    --color-extra-light-brown: #d98e53;
+    --color-dark-withe: rgba(252, 247, 247, 0.64);
+    --color-gold-light: #FFE6BD;
+    --color-gold:#d4af37;
+    --color-gold-white:#f5e9c9 ;
+    /** Tamaños */
+    --text-xs: 16px;
+    
+    /*Animaciones*/
+    --animate-fade-in-bottom: fade-in-bottom linear both;
+    
+  @keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px); opacity: 0; } 
+    100% { transform: translateY(0); opacity: 1;} 
+    }
+    
+    /*fuentes*/
+    --font-Sunshiney-Regular: Sunshiney-Regular , cursive;
+}
+
+  @font-face {
+      font-family: Sunshiney-Regular;
+      font-style: normal;
+      font-weight: nnormal;
+      font-display: swap;
+      src: url(./fonts/Sunshiney-Regular.tttf);
+    }

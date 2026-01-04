@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>La montaña</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        La montaña(..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+
+      <div><h1 class="text">La montaña.</h1></div>
+      <div><p class="text">Allá lejos donde todo encanta, despacio como la <br>madrugada, <br>se hace feliz un gorrión, <br>entonando un trino que aclara la mañana<br>y te despierta con ilusión.</p></div>
+      <div><p class="text">Seré fiel al río que brota de tus entrañas, <br>Que trae agua pura y piedras infinitas.</p></div>
+      <div><p class="text">Suavemente subiré tus faldas, <br>Iré haciendo veredas hacia tu cima,<br>Sin querer dejar huellas,</p></div>
+      <div><p class="text">Y disfrutando tu esencia y<br>tus árboles frutales, y otros de excelente madera,<br>De dónde se hacen guitarra y bajos,<br>Donde brota el oxígeno más puro.</p></div>
+      <div><p class="text">Allí donde se oye una voz, atrapada por los sauces,<br>Que habla de las sombras, y de los rayos que se escurren por las ramas, <br>haciendo feliz el día a día.</p></div>
+      <div><p class="text">Siento el olor a rocío, <br>Disfrutando del paisaje,</p></div>
+      <div><p class="text"> regresando<br>De aquel viaje, al cual no lleve maletas.</p></div>
+
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>

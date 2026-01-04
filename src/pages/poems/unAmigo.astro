@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>Un amigo</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        Un amigo(..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+      
+      <div><h1 class="text">Un amigo.</h1></div>
+      <div><p class="text">Un amigo hace la vida larga,<br>En un océano sin fin.<br>Es quien te defiende de una enemiga daga, <br>Siempre dando la paga.<br>Cuando te hace falta a ti.</p></div>
+      <div><p class="text">Un amigo conoce tus más oscuros secretos,<br>Sin temor y por respeto,<br>Siempre te da la mano,<br>A veces mejor que un hermano,<br>En las buenas y en las malas,<br>Es el que hace la pala,<br>En las jugadas, sin mirar<br>Lo que pueda pasar.</p></div>
+      <div><p class="text">Un amigo nunca falla,<br>Y cuando lo hace no fue por culpa de él.<br>Es que la vida estalla,<br>En un torrente de Fe.<br>Si te pide una ayuda no preguntes por qué.</p></div>
+      <div><p class="text">Lo valioso del amigo, es su mano sincera<br>Quien lo mejor espera,<br>De ti siempre confiado,<br>Y Sin estar desesperado,<br>Depende a veces de ti.</p></div>
+      <div><p class="text">Un amigo es luz donde hay total oscuridad,<br>No busques caridad,<br>Cuando no te lo merezcas,<br>En fin de cuentas tú muestras,<br>Tus tesoros más preciados,<br>Pero siempre eres desgraciado,<br>Sin un amigo a tu lado.</p></div>
+      
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>

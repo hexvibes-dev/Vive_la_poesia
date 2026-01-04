@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>Espejismo</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        Espejismo(..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+
+      <div><h1 class="text">Espejismo</h1></div>
+      <div><p class="text">Dónde está la verdad? Quizás en un desierto sin <br>fin.<br>Donde se ven las palabras buenas y las malas <br>palabras,<br>Donde se guardan en una bóveda los malos <br>presagios,<br>Donde anochece temprano en una fiesta de <br>vampiros,</p></div>
+      <div><p class="text">¿Quién sabe dónde estamos cuando contamos la <br>verdad?<br>Estamos en el cielo prometido, o vivimos en el <br>infierno feliz.<br>Será mañana nuestro despertar.</p></div>
+      <div><p class="text">¿Quién nos guiará en el proceso? ¿Seremos <br>fuente?, <br>o seremos agua que recorre nuestro planeta e <br>invade nuestra calma.</p></div>
+      <div><p class="text">¿Será verdad lo que vemos? Somos bendecidos <br>así?<br>Tendremos que ir y venir con nuestros pesares y <br>resurgir de <br>los miedos que no nos dejan ver el rostro medio <br>muerto de la realidad.</p></div>
+      <div><p class="text">¿A quién debemos nuestra vida? ¿Cuánto pagamos <br>por estar vivos?<br>¿Quién nos agradece por la ira que sentimos en el <br>centro del pecho?<br>La cual no nos deja respirar. De qué lado del <br>espejo estamos cuando nos miramos y no vemos <br>nada: solo luz y oscuridad.</p></div>
+      <div><p class="text">¿Tu reflejo eres tú mismo o falta algo en su <br>interior? <br>Definitivamente eres único, pero no tienes fin. <br>Será tu alma la que se salve después de una vida <br>impura, o <br>Tendremos que ver la otra cara de la Luna para <br>darnos cuenta de nuestra necedad.</p></div>
+      <div><p class="text">¿Será posible <br>llegar a otra galaxia?<br>¿Vivirá allí otra parte de mí? O quizás yo mismo en <br>otra dimensión?<br>¿Los que conocen la historia sabrán hacia dónde <br>vamos?<br>¿O la verdad de nuestra travesía reside en nuestro <br>interior?</p></div>
+
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>

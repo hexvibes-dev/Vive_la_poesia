@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>Yo sé…</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        Yo sé… (..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+
+      <div><h1 class="text">Yo sé…</h1></div>
+      <div><p class="text">Yo sé de las estrellas más lejanas, pero nunca las <br>he visitado,<br>Sé de los Alpes y el Everest y nunca he estado allí.</p></div>
+      <div><p class="text">Sé de los amores que duelen, aun cuando dicen <br>haber terminado<br>Sé que tú sabes que yo sé, pero estoy perdido al <br>saberlo.</p></div>
+      <div><p class="text">Yo sé bailar en tiempos de carnaval, y escuchar el <br>silencio<br>De la carcajada de un niño.</p></div>
+      <div><p class="text">Yo sé de los que están cerca del precipicio<br>Y sin pensar en el inicio, de una nueva ocasión,<br>Se han derrumbado.</p></div>
+      <div><p class="text">Yo sé de las nubes del pasado, y de quien está a tu <br>lado <br>en los momentos más tristes.</p></div>
+      <div><p class="text">Yo sé quién da de comer alpiste a las palomas,<br>Y sueña con volar muy lejos y espera que le <br>crezcan las alas<br>Sentado en su balcón.</p></div>
+      <div><p class="text">Yo sé de las almas viejas que nunca mueren y van <br>de<br>Una generación a otra, creciendo y cumpliendo su <br>misión.</p></div>
+      <div><p class="text">Yo sé de la traición de un ser querido, y el perdón <br>sin haberlo pedido<br>De muchas personas a las que he herido.</p></div>
+      <div><p class="text">Yo sé de los sentimientos cobardes, que hacen <br>alarde de romper<br>Con odio toda ilusión. Yo sé quién guarda un libro <br>y lo salva de un ciclón. Yo sé muchas cosas, y lo <br>que desconozco,<br>al principio no lo soporto, porque está dentro de <br>mí.</p></div>
+      <div><p class="text">Yo sé lo que es un beso robado, y otro maltratado <br>en una noche de acción. Yo sé y me lo reservo, <br>porque escriben los<br>poetas y porque una violeta se desnuda con <br>placer.</p></div>
+      <div><p class="text">Yo sé del amanecer y de los que aman sin <br>condición,<br>Yo sé de la crucifixión de los que se niegan a andar.</p></div>
+
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>Del otro lado del espejo</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        Del otro lado del espejo(..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+
+      <div><h1 class="text">Del otro lado del espejo.</h1></div>
+      <div><p class="text">Aquí estoy observando las cosas desde un universo <br>paralelo,<br>sucumbiendo a las travesías del tiempo y el <br>espacio.</p></div>
+      <div><p class="text">Creyendo sin reparos en la diversidad de las almas,<br>uniendo pasadizos en los quebrantos de una <br>montaña.</p></div>
+      <div><p class="text">Asomando, como quien llama al misterio para que <br>se<br>desvele con paciencia, asumiendo la transparencia <br>del río en su recorrido hacia al mar.</p></div>
+      <div><p class="text">Haciendo oraciones desde las pasiones de quien <br>vive, y subraya el sintagma del predicado de los <br>que luchan sin descanso por una vida mejor.</p></div>
+      <div><p class="text">Son tantas cosas desde el otro lado, odiseas en el <br>pasado, claroscuros en los dibujos,<br>la verdad sin tapujos que no cesa en su travesía.</p></div>
+      <div><p class="text">¿Qué sería de los poetas sin poesía, del Sol sin el <br>día?<br>Es mejor una alcancía de besos, que guardo<br>cada amanecer para el que esté el en el otro <br>mundo</p></div>
+      <div><p class="text">llegue desde lo profundo del océano, y nade sin <br>descanso,<br>atraviese descalzo la caliente llanura, y desde la <br>sepultura poniendo acupuntura para quitar el <br>dolor.</p></div>
+      <div><p class="text">No quiero mirar desde abajo, recibiendo a contra</p></div>
+      <div><p class="text">luz<br>los que andan con virtud, desde el otro lado del <br>espejo.</p></div>
+
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>

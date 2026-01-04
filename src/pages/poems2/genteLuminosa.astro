@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>Gente Luminosa</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        Gente Luminosa(..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+
+      <div><h1 class="text">Gente Luminosa</h1></div>
+      <div><p class="text">Conversando contigo me propongo muchas cosas,<br>Por ejemplo querer más las rosas,<br>Las espinas dejarlas pasar.</p></div>
+      <div><p class="text">Convertir la tristeza en un halo de luz,<br>Transformar la energía con mucha inquietud.</p></div>
+      <div><p class="text">Observar la Luna, con voz de supervivencia,<br>Despertando el lobo que llevo dentro.</p></div>
+      <div><p class="text">Superando ausencias con tu compañía,<br>Recitando versos de Neruda,<br>Compilando piedras sin querer,<br>Hasta crear edificios a pincel.</p></div>
+      <div><p class="text">Recibo tu palabra como quien<br>Toma agua en un desierto inmenso,<br>Y desnudo me lanzo a un río inexplorado,<br>Saliendo nuevo y airoso una vez más.</p></div>
+      <div><p class="text">Con tu presencia a mi lado me hace abrir puertas,<br>Me ayuda a encontrar la llave de mi cofre <br>Más preciado, teniéndote cerca<br>Supero la ansiedad, recibo con franqueza</p></div>
+      <div><p class="text">Tus consejos, y tengo la certeza de<br>Pensar menos y actuar más.</p></div>
+
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>

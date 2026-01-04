@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/poems-styles.css" />
+    <title>El amor</title>
+  </head>
+
+  <body>
+    <div class="flipbook">
+      <div class="hard">
+        El amor(..) <small class="by">~by Elio Torres</small>
+      </div>
+      <div class="hard"></div>
+      
+      <div><h1 class="text">El amor</h1></div>
+      <div><p class="text">El amor es como una nube de agua condensada,<br>Mientras más dulce, más salada.</p></div>
+      <div><p class="text">No luches contra él porque saldrás derrotado.</p></div>
+      <div><p class="text">No juegues con la suerte aunque tengas el dado.</p></div>
+      <div><p class="text">No hay más puro amor que el de una madre da a su hijo,<br>Y aun así hay hijos que odian a su madre,<br>Pero pecan en un fuego que arde.</p></div>
+      <div><p class="text">Quien cree que un beso, puede ser más grande?</p></div>
+      <div><p class="text">No se puede ir contra la marea.</p></div>
+      <div><p class="text">Ni menos jurar que de esa agua no beberás,<br>Pero a veces tendrás,<br>Que aguantar la embestida,<br>El amor te vuelve loco, y te hace suicida.</p></div>
+      <div><p class="text">Tenemos miedo a confiar, por temor a darlo todo,<br>Si la otra no te merece, es producto a tu codo.</p></div>
+      <div><p class="text">El amor es un juguete, y uno es un niño empedernido,<br>Lloras y ríes, sin volver al nido<br>Y preguntas si alguna vez tuvo sentido.</p></div>
+
+      <div class="hard" id="back"></div>
+      <div class="hard"></div>
+    </div>
+  
+    <a href="/" class="atras">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M5 12l14 0" />
+        <path d="M5 12l6 6" />
+        <path d="M5 12l6 -6" />
+      </svg>
+    </a>
+    <script src="/scripts/jquery.js" type="module"></script>
+    <script src="/scripts/turn.js" type="module"></script>
+    <script>
+      $(".flipbook").turn();
+    </script>
+  </body>
+</html>
