@@ -99,7 +99,7 @@ body {
     transform: translateY(-10px);
   }
 }
-@media(width < 600px) {
+@media(width < 900px) {
   * {
     box-sizing: border-box;
   }
@@ -133,8 +133,7 @@ body {
     height: 500px;
   }
 }
-
-@media(width > 860px) {
+@media(width > 700px) {
   .flipbook {
     width: 800px;
     height: 600px;
